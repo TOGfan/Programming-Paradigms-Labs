@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)
+[debug] Load.defaultLoad until apply took 66.215ms
+[debug]           Load.loadUnit: plugins took 61.4891ms
+[debug]           Load.loadUnit: defsScala took 0.3788ms
+[debug] [Loading] Scanning directory C:\Users\nikod\eclipse-workspace\paradigmsLab9_1\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\nikod\eclipse-workspace\paradigmsLab9_1\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.3085 ms
+[debug]               Load.resolveProject(paradigmslab9_1-build) took 31.167ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id paradigmslab9_1-build, base: C:\Users\nikod\eclipse-workspace\paradigmsLab9_1\project, plugins: List(<none>))) took 62.475ms
+[debug] [Loading] Done in C:\Users\nikod\eclipse-workspace\paradigmsLab9_1\project, returning: (paradigmslab9_1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 79.4839ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2043ms
+[debug]         Load.loadUnit(file:/C:/Users/nikod/eclipse-workspace/paradigmsLab9_1/project/, ...) took 147.7215ms
+[debug]       Load.apply: load took 287.3609ms
+[debug]       Load.apply: resolveProjects took 7.2481ms
+[debug]       Load.apply: finalTransforms took 55.1717ms
+[debug]       Load.apply: config.delegates took 4.9792ms
+[debug]       Load.apply: Def.make(settings)... took 258.8417ms
+[debug]       Load.apply: structureIndex took 63.8889ms
+[debug]       Load.apply: mkStreams took 1.2719ms
+[info] loading project definition from C:\Users\nikod\eclipse-workspace\paradigmsLab9_1\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1734.8717ms
+[debug]     Load.loadUnit: defsScala took 0.0016ms
+[debug] [Loading] Scanning directory C:\Users\nikod\eclipse-workspace\paradigmsLab9_1
+[debug]       Load.loadUnit: mkEval took 4.3365ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.7336 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.7846ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\nikod\eclipse-workspace\paradigmsLab9_1, plugins: List(<none>))) took 6.3597ms
+[debug] [Loading] Done in C:\Users\nikod\eclipse-workspace\paradigmsLab9_1, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1749.8827ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.9053ms
+[debug]   Load.loadUnit(file:/C:/Users/nikod/eclipse-workspace/paradigmsLab9_1/, ...) took 3492.2327ms
+[debug] Load.apply: load took 3507.3367ms
+[debug] Load.apply: resolveProjects took 0.0948ms
+[debug] Load.apply: finalTransforms took 9.9407ms
+[debug] Load.apply: config.delegates took 0.3007ms
+[debug] Load.apply: Def.make(settings)... took 80.0443ms
+[debug] Load.apply: structureIndex took 18.8644ms
+[debug] Load.apply: mkStreams took 0.0052ms
+[info] set current project to paradigmsLab9_1 (in build file:/C:/Users/nikod/eclipse-workspace/paradigmsLab9_1/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-21ef94f6246757ab77d8
+[debug] Writing bsp connection file
+[info] started sbt server
